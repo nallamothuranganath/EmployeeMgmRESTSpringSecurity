@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: admin
+    password: admin
+    url: jdbc:h2:mem:empmgmtDB
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
